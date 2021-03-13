@@ -3,7 +3,7 @@
 # class MVPsModel:
 
 #     def __init__(self):
-#         self.client = MongoClient('mongodb+srv://todoAppUser:afryKa96@cluster0.jrvdm.mongodb.net/DiscordNewbies?retryWrites=true&w=majority')
+#         self.client = MongoClient(sometokenfromenv)
 #         self.db = self.client.DiscordNewbies.mvps
 
 #     def get(self, mvpName):
