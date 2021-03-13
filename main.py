@@ -192,4 +192,4 @@ async def updateET(message):
     theMSG = await message.channel.fetch_message(botMsgID)
     await theMSG.edit(content=f"{teamString}")
 
-client.run("ODE4MTA2ODY4ODk5NjQzNDEy.YETPZQ.-jA99dQFLKuvvKStAm79qXFCyD8")
+client.run(sometokenfromenv)
